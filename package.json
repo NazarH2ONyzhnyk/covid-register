@@ -1,0 +1,27 @@
+{
+  "name": "covid-register",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "postcss css/tailwind.css -o public/build/tailwind.css",
+    "watch": "postcss css/tailwind.css -o public/build/tailwind.css --watch"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NazarH2ONyzhnyk/covid-register.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NazarH2ONyzhnyk/covid-register/issues"
+  },
+  "homepage": "https://github.com/NazarH2ONyzhnyk/covid-register#readme",
+  "description": "",
+  "dependencies": {
+    "autoprefixer": "^10.3.4",
+    "postcss-cli": "^8.3.1",
+    "tailwindcss": "^2.2.15"
+  }
+}
